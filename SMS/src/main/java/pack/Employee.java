@@ -28,7 +28,8 @@ public class Employee {
 	protected boolean type;
 	@Column(name = "joining date")
 	protected String joiningDate;
-	
+
+	/*protected String firstName, lastName, department, qualification, type, joiningDate;*/
 	
 	// Employee Class constructor with all properties except ID 
 	public Employee(String firstName, String lastName, String department, String qualification, boolean type, String joiningDate) {
@@ -51,64 +52,65 @@ public class Employee {
 		this.type = type;
 		this.joiningDate = joiningDate;
 	}
-
 	// SETTER and GETTER methods
-	public int getId() {
+	public int getId()
+	{
 		return id;
 	}
-
-	public void setId(int id) {
+	public void setId(int id) 
+	{
 		this.id = id;
 	}
-
-	public String getFistName() {
+	public String getFistName() 
+	{
 		return fistName;
 	}
-	
-	public void setFistName(String fistName) {
+	public void setFistName(String fistName) 
+	{
 		this.fistName = fistName;
 	}
-	
-	public String getLastName() {
+	public String getLastName() 
+	{
 		return lastName;
 	}
-
-	public void setLastName(String lastName) {
+	public void setLastName(String lastName) 
+	{
 		this.lastName = lastName;
 	}
-
-	public String getDepartment() {
+	public String getDepartment()
+	{
 		return department;
 	}
-
-	public void setDepartment(String department) {
+	public void setDepartment(String department) 
+	{
 		this.department = department;
 	}
-
-	public String getQualification() {
+	public String getQualification() 
+	{
 		return qualification;
 	}
-
-	public void setQualification(String qualification) {
+	public void setQualification(String qualification)
+	{
 		this.qualification = qualification;
 	}
-
-	public boolean isType() {
+	public boolean isType() 
+	{
 		return type;
 	}
-
-	public void setType(boolean type) {
+	public void setType(boolean type) 
+	{
 		this.type = type;
 	}
-
-	public String getJoiningDate() {
+	public String getJoiningDate() 
+	{
 		return joiningDate;
 	}
-
-	public void setJoiningDate(String joiningDate) {
+	public void setJoiningDate(String joiningDate) 
+	{
 		this.joiningDate = joiningDate;
-	}
-	
-	
+	}	
 	
 }
+
+
+
