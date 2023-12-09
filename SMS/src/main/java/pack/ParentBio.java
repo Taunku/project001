@@ -30,50 +30,61 @@ public class ParentBio {
 	
 	public ParentBio() {}
 
-
-	public String getFirstName() {
+	public String getFirstName() 
+	{
 		return firstName;
 	}
-	public void setFirstName(String firstName) {
+	public void setFirstName(String firstName)
+	{
 		this.firstName = firstName;
 	}
-	public String getDateOfBirth() {
+	public String getDateOfBirth() 
+	{
 		return dateOfBirth;
 	}
-	public void setDateOfBirth(String dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth)
+	{
 		this.dateOfBirth = dateOfBirth;
 	}
-	public boolean isGender() {
+	public boolean isGender()
+	{
 		return gender;
 	}
-	public void setGender(boolean gender) {
+	public void setGender(boolean gender)
+	{
 		this.gender = gender;
 	}
-	public String getBloodGroup() {
+	public String getBloodGroup()
+	{
 		return bloodGroup;
 	}
-	public void setBloodGroup(String bloodGroup) {
+	public void setBloodGroup(String bloodGroup)
+	{
 		this.bloodGroup = bloodGroup;
 	}
-	public String getNationality() {
+	public String getNationality()
+	{
 		return nationality;
 	}
-	public void setNationality(String nationality) {
+	public void setNationality(String nationality)
+	{
 		this.nationality = nationality;
 	}
-	public String getCategory() {
+	public String getCategory() 
+	{
 		return category;
 	}
-	public void setCategory(String category) {
+	public void setCategory(String category)
+	{
 		this.category = category;
 	}
-	public String getReligion() {
+	public String getReligion() 
+	{
 		return Religion;
 	}
-	public void setReligion(String religion) {
+	public void setReligion(String religion)
+	{
 		Religion = religion;
 	}
-	
-	
 	
 }
